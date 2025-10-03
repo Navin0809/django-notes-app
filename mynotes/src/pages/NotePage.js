@@ -65,9 +65,9 @@ const NotePage = () => {
           </Link>
         </h3>
         {id !== 'new' ? (
-          <button onClick={deleteNote}>Delete</button>
+          <button onClick={deleteNote}>Deleted</button>
         ):(
-          <button onClick={handleSubmit}>Save</button>
+          <button onClick={handleSubmit}>Saved</button>
         )}
       </div>
       <div className="note-body">
